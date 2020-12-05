@@ -1,0 +1,13 @@
+function verif_form()
+{
+    if(document.form.nomstag.value == "")  {
+    alert("Veuillez entrer votre nom !");
+    document.form.nomstag.focus();
+    return false;
+    }     
+    if(document.form.prenomstag.value == "") {
+    alert("Veuillez entrer votre prénom!");
+    document.form.prenomstag.focus();
+    return false;
+    }
+}
